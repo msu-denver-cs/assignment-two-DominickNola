@@ -2,20 +2,285 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4971b8ae-f022-4dd4-88d8-f2f8cdb0c220" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/assignment-two-DominickNola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-two-DominickNola.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/car.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/part.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/part.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/test.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db/test.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/cars_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/cars_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/2d/e12f2f7781c7ee" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/2d/e12f2f7781c7ee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/33/f2d281d21df22a" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/33/f2d281d21df22a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/5e/b59b0cad737806" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/5e/b59b0cad737806" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/a5/80d59360c222b2" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/a5/80d59360c222b2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/dd/4551e70f555886" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/dd/4551e70f555886" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/screenshots/failures_test_creating_a_Car.png" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/screenshots/failures_test_creating_a_Car.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/screenshots/failures_test_updating_a_Car.png" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/screenshots/failures_test_updating_a_Car.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cars.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/makes.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/parts.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/cars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/makes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/parts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/makes_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/cars_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/makes_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/parts_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/car.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/car_part.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/make.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/part.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/_car.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/_make.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/_part.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/update" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/development.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191003203224_create_makes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191003203352_create_cars.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191003203423_create_parts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191003203509_create_car_parts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/test.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_diff_parts_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/cars_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/makes_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/parts_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/car_parts.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/cars.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/makes.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/parts.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/car_part_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/car_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/make_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/part_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/cars_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/makes_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/parts_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-F/-FDwcl9u8hbKykiE-kwzG7XXIrSQ2ky1aBlw4XNf6N4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-X/-XQnNTbS4JhKIElUl1MA2LcB5MaNlhe8jOV-jm7EaqM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-l/-l8pwxFhXJjQB1PvMggpCMyvnCYxhl5WGcNhfW6WH3k.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0H/0He6DGh-nkV3XvAzd6cvsG6xoT_npkN5mU6Rj-eZ__8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0J/0Jl9gD30HiSMxEmy39temRFHYCUU4ow_7GyAhzqoT3c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0y/0yYNRHyB9pwIgaZC_KhR9l-wkC0jllOSFF1FM1a_ilE.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1D/1DvXZl8ZMMHqOakRaV7Tgq0pWz-UK1Tp-j5CXGwuMSs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1Q/1QlaO0eQpdaahIn_D1LFdwb7X4yN161VP7ofPrlNBiQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/20/20nmMCniDX-eBNhUPBNsIF0QpZz6YljkrJKMUUYRGs8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/23/23_nFs6UPLce3GUu5xO5A9HJAd2vX6BXBpR9LSAdDOw.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/28/28OH8tafU_frZYlabbSvxgv-DlOilxsSvzbVuFxSCxI.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3O/3OimkizziDfrpSq3MNudMhV14N5hMIpEzjVp5pnyQZU.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4T/4T_ZheHfNwdsKVaUVRSud44wBEyHKcoh_NLgiU3Dbf4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5r/5rOj7yRg6Upjcsd0mEzgDRrWCL9WZ1MXKlqMobQy_cE.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/60/60lvGdXWDIyGUbcd-uXURinUijIB_xfcyqT1ZhigvgM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/61/61DYE6KWkT0kZHOqhoDyZVE-tFnswqDzUluEf04Z9qI.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6T/6TL-BbJEr30xW0ETWGO8EuZHGwp1Vpyh-BOjUBAxbEc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6_/6_6xvRIgNLpvDEIdHW1-PtQcQmnRIEu_R1IiEubPRBk.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6m/6mzqBpYXZ9D8K9qLC7VVFrt6kcCybQwsXHozQhgjQOo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/79/79x-q--4dblcF8srcaXG03rPWZ9sIdLKvxHYV96ZH-Q.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8J/8Jmnpq_vqzhoiUimZ-6xZXLOQUybVNogIrRTojwMsns.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8_/8_iGJhJQNtBck72I4oso5igKHFg1OJwebWKYVjD6CVs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8v/8veNdWIa7u5z2iL64BP-6LjprCi2miIAGAF9AaLJnvY.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/97/97JJJuJBk5TJHp0oLlWzDnXpcGJqfiQ0GE5LGgAueI4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/99/99m8UCKl4j8IpsVOK8ltLHyNh8Ae0nHw3GBkC34V_co.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9E/9E7lKMzgHdUhW3kWSkAOB1Oxsen850DOTk6zYqJtYRQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9O/9OBnYXX4XxX1NAooqsZ68CHPpQk--8pUr0G73GLqYtg.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9O/9oo20FOa5j0gmKC4Kz_mfkgtATNA1ALI6KMElTnWcuo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9x/9x4cccUKA4iH0FY_3JmHmFRCbJRTAo1NFVIkwTN3ZnA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9x/9xUUb8E5Uo3FYfi6NtTTiZyrH0VC7NP0uxi2-RzP3Sw.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/A0/A0apIc_2XFBMZmCKTh7jXmKIIXU3XPKxdTgwBuadYcA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/B4/B43LeT9Wba4fLvXw-C_kKq-x9HwYZxnBBiltbIufzzQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Bh/BhUF_Ihae-QIGsuJwHfiRiVPlWcg8ttebqznTWoAldY.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Bu/Bu_ysBxcsuKu8MNsbttTgP35qwswnUZL39Z9tMcytuM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/C4/C4eWYvoczEfqJW7Ap2bdRRJ2pFS6AUq5Y9iVoqWJCH0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CX/CXe3nA7yLoy7os6wUV1bDvv86-LbiZVXqMSGwhYGi-M.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EW/EWC2M9_Bc5lM_8LlgZwQW7k9mx3OVzk5t9ojhVZtBCA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/G3/G3Dh9Xg0m1LhgdNwgZ7juk4h7UqwfaKJrVY8JhoCgL8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/G8/G8wV1tj5gKLsTkSzg6dk-EtDHKVTGk4pLudlIM39EFg.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Gt/GtcEcAl7bzm0kxHTGArhXWfkMVYcrZ7KVk6cXM8oilo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/H7/H74ycNXPeDl29Yf01ejHWYW5tkG7FwmHgB0cRgTnt5Y.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HI/HIlc1ZktVIsWufXuVHddWX_InrkmDyGeSrAlVqM8yBs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ih/IhrOa2yjyW72mqq3_tRLfkVLVXtk_EiPSCStxVB0qFA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Iz/IzgwJ7423L2V69vbFdMKKMZbVgpTzNBL4AfPjiMSXpM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JY/JYjLYTmhONNU3DKqhzW9KJEPPXeC69Xhq-Ry7htlyek.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/KY/KY4EpcT-GpqVa2f1dM1xk45prk_3moJXR_2YI_S-peM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MZ/MZcwDENEs93Wd9q7A_7UWdfJrWsBXa0pGp03P9mqG2I.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/OP/OPyX18XKoE9N8rN8b2hxq5waySrPKprTDijyKaGNNXA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Pg/PgHlGkSXo8yadVlZbd0M5seoHp-FAq-QeCuCEv5rhmo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QR/QRCZWij__qzzxPqpwpoAsSqirYdQhCC4GQEWNRUNixQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QV/QVPtAxDgcixRuT43zY3tODuULU4QUZBi4KYuRYe8_OM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rk/RkQLRXSz5LhJQnH7BT-ZDkVK0Rx8N9KhcVwR2A1HY4M.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/SE/SEQ16ecogCUxflR40NHZ3SvjfbpDItU59Szskd8Y6wY.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/SS/SSMoqKuhu9aFG6IO_ExdLskpXgPzcc85bpjBD3qYLKY.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ST/STvS88HmxFEWnSYdMWSUwC_AZyEDNloCOx_VB0szP1Q.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Sh/ShoDCsnRdGf1Q6N7GVPF6PXVpwIqqHh_RMW0GVyirDw.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/U8/U8GlSd9wHaLzyfEpRbXPWG89gw-lVHmHwZToKKVCfZE.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Uo/UosqJh1feO4NQ7GM1SrYZNB21tf3eOuk2tjVMexZfz4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/VB/VB3kVGV6UOVRKsVGG0v8-tdhvIlefXQ4_bjRexijFfg.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/VV/VVUlgfa3iasCn9nQmW7X085wZEmVYLPB-7F-g2FsmIM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/WK/WKzcWg4H1_wghz8okpJzv_GfPEfPzedEcGlqbkvIzEs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Xb/XbUAmmzaDjxslHMx9P6W4DOW-uxRON8K-3MUQceoHwE.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YD/YDxqtTkNkLVBp24pW02XU25Lk_8C239FIYe0ubrdlyM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YF/YFAIxS1z11aApvrraKK70hwk_LSd0cOvr6pzi-936qA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YX/YX15t7NTRP8vCV9_9JgIcKPs-AYf1fh1S5OyAgE5tak.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yy/YyddOmcGceOpbUrHl5mC10Kt_LlqmY73vTTWyLyro6Q.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ZK/ZKRwVxD8_Hbi1cC0I01Jx-R9j6tByz9ODGosu5aeIUc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zq/ZqjssMFTc28J6tV0jx3mfcop0fW_F7V4-wxF1iP1m64.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_0/_0J81ME6kL9tUX-_zPtoFHd7lXEL-LArhRUOHXeWiyk.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aR/aRrYr-1wi559Ss-kq5M27dBMBnKCfVtQUBmXNdW6qQ0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aS/aSa4YJ6auDMFqhY8k7wv45ipB1uvxbbqEemXmE_5fus.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bG/bGQNah1iUhiQjToiBF8q5SdKb1w1kN4gjrIXsV37OEQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/b_/b_Zis1FG6I0xWJdzdlNnq9XWjGiYgrxcUp1o_cAZIHQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cY/cYw12pBEu-n6nU2rVd3T2GAt-Yhl9eCr3Nakk7GoBMQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/d8/d8TBL6RHaOlZHUiwSoGS6oYjYhE49eS631SHDYK4rPU.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fB/fBnctpSCQZK46YM6SMOVLRkIsFQaojPNgLBTCfp-bj0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fo/fomYfl3loL4Wxs_ju962l_yF2vCFQex8DQM3QEe_kpg.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gb/gbHRSYE42iUUsJt1KuniaPf5Q8_Wu9ZCzp3bPZxw6DY.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hl/hlOIRhyQa1JAxg-9LuoQ66uUc0mWaG84UZzdBMI6VG0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ik/ik5bB2GoLdaaCnGPwl7EVuco6HbTJ4xDkeKssos8GtA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jC/jCsljZszv2CbOuZIc68blxwqq8rgWJaYflpOphY25gQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jI/jIXHoDi4pjuZBjavpfPJt6hZh5-zlWaB-3ugOxn5ijw.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jN/jN3-PODbD15ru0679nfXUVdJAvu6I1e0qGM3yoc-YbA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kr/krE6ubeH0asXYCRLIL5j9TRjw8fHeJvsHUOW_rFhvf4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lD/LdPS6wZpxN7NZrA-vbZkH7JIU09JkeyKiPQgT0CffWM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lD/lDFAE-t21H_y49y05giZ6cGktfq8L9ASvv2Q4LaJ2Ug.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lv/LvJaVfQFu2w7f4Ie7IotcoK_6bpDMevVtH4KsBMHsBY.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lv/lvpblN_eWH4FuLdWi_ULW1E-RpHUoIisvSi9OBUsbBQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/m2/m2F1uNG_mDYP4JnNdZFWjP9q9NQZAmrJEvnymY56IMo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ml/MlDTcFejaCKrn_LlLGcs98twdXjAlAlOkjUAJ16KpwU.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ml/mlq0A0AJVxvKygVPev7ScFP2NpFqxR_pBRXsd0dW3Eo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nY/nYwYm-uhkuqvQegTdjz2kc_edT1oMuKJ5dIB_CKSu9U.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nt/ntNobsyBpAPab3oPR4Zqzjh9LfT6EdgTLkLdWmJ6B7c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/oL/oLoq2rBv4WS8mFb1CfsmA4rIu88vwdcVyFHk01RUR88.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ot/otxf5kmgHGAllC6hYQZAETKxk8QomUdcDSrpnBNoJlk.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pa/pa2GhoKVl6saR1nTNoHEQHWIRFfKlb38l8NRd8OSUjM.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pk/pkpi-c4OuaHXsVbGgn_eVzTOOQdaoN96t6gLVxzVWs4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/po/porjLf7LSjn-q8nZcWXiSn7mlGhlS361C-BzcaLAYqU.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qB/qBGlEt1u1xa8lm2eaI87eLKOu6X0XdmS1M395i49BTA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qP/qPDsQ4UVWIkITkHhzvFFOEMHfGBdlvr2CvO4Rwa-G2Y.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sj/sjug78ssb4mqTNNdtiGuhpIyPWpSVN3axf3h1IMfZtQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/v0/v0gGwOwfONZjauJw-C1ZDx7dAaZtJlvY052U9BcYp_g.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vZ/vZNgFOqYYV6Rpu3Yxcp-gEywHU9f2c7XT_giXbbcNyQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vc/vcgiILg1wO98x-a4kX678ASAFWA1cL0iVx07VkHLPqA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wG/wGijGL08lohT6se8iNIAfImb6735Pc8nFMFUj-gNyo8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wM/wM8h6rSM1lePNbcxQDwGOxFuGsKGdrlJ6iyZ2Db0gps.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xn/xn6aGh2wjQ9nMX4hOdc4IzuWEqxZ3Myf_NeARFwljZ0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yR/yRICSlw9ZZNDUb1-76q8dWafMGe9wa2kYkc3SjkxFcw.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/z9/z9fL-viM7xXKl_7G-0Fvuxfa4TnMsegpiUQhPJgtEKs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zO/zOETsEakk8ZQQ9i8wdTveqO0qsSSxUVvLEd412WPku4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zZ/zZfKdIcjLRFdVchRluANLRa4tDw4fbvTu5_QjARYYy8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zn/zn54wJmIZ_tbt0MIO_sLybMNZlAaUtQnfuWkdIRmqYI.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zv/ZvCEW2ZyS-k4cHH7Gd8P2nKFE9Uh1VOrfR-1PYY2yz8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zv/zviU93oShsm3Ki4HL3awy6xNZxODwjje-YDP-DJw0wQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/2d/e12f2f7781c7ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/33/f2d281d21df22a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/56/82474778426f88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/5e/b59b0cad737806" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/a5/80d59360c222b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/dd/4551e70f555886" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/development_secret.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/restart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/screenshots/failures_test_creating_a_Car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/screenshots/failures_test_creating_a_Make.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/screenshots/failures_test_destroying_a_Make.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/screenshots/failures_test_updating_a_Car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/screenshots/failures_test_updating_a_Make.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/screenshots/failures_test_visiting_the_index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,13 +292,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RzUMyqWqNzI2aBnGrw3vdcTKZ2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,8 +319,8 @@
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-2.5.3 [global]" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -131,6 +397,10 @@
       <updated>1570588095020</updated>
       <workItem from="1570669374867" duration="866000" />
       <workItem from="1570670280285" duration="99000" />
+      <workItem from="1570675572153" duration="123000" />
+      <workItem from="1570675719272" duration="89000" />
+      <workItem from="1570675874182" duration="426000" />
+      <workItem from="1570676337467" duration="54000" />
     </task>
     <servers />
   </component>
